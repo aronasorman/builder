@@ -23,6 +23,7 @@ defmodule Builder.Mixfile do
   # Type `mix help deps` for examples and options
   defp deps do
     [{:phoenix, "0.5.0"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:mock, git: "git@github.com:jjh42/mock.git"}]
   end
 end
